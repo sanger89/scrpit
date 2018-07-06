@@ -1,0 +1,15 @@
+####################################################################################################################
+此脚本用做安卓一键打包
+the command useag:
+/usr/bin/android_auto_packages c_test		#打包c的测试包
+/usr/bin/android_auto_packages c_testp		#打包c的生产测试包
+/usr/bin/android_auto_packages c_prod		#打包c的生产包
+/usr/bin/android_auto_packages all_test		#打包所有端的测试包，顺序是c,b,s,m,i
+/usr/bin/android_auto_packages all_testp	#打包所有端的测试包，顺序是c,b,s,m,i
+/usr/bin/android_auto_packages all_prod		#打包所有端的测试包，顺序是c,b,s,m,i
+
+
+Dependence and limitation:
+测试包和生产测试包对子路径有要求（必须要有子路径），具体的目录结构参考“http://glsvn.365gl.com/document/2017/04-testing/07-安装包/客户端/”
+具体打包的步骤，详见脚本
+####################################################################################################################
